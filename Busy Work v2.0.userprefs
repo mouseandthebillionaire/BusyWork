@@ -1,0 +1,24 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TimerScript.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ClientScript.cs" Line="37" Column="1" />
+      <File FileName="Assets/Scripts/PopupScript.cs" Line="64" Column="1" />
+      <File FileName="Assets/Scripts/LoginScript.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/GameOverScript.cs" Line="27" Column="26" />
+      <File FileName="Assets/Scripts/ServerScript.cs" Line="42" Column="4" />
+      <File FileName="Assets/Scripts/GameScript.cs" Line="18" Column="16" />
+      <File FileName="Assets/Scripts/PlayerManager.cs" Line="51" Column="19" />
+      <File FileName="Assets/Scripts/TimerScript.cs" Line="26" Column="18" />
+      <File FileName="Assets/Scripts/GameManagementScript.cs" Line="16" Column="8" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <RunToCursorBreakpoint file="/Users/MB/Games/Unity/Busy Work v2.0/Assets/Scripts/GameOverScript.cs" line="28" column="34" />
+      <Breakpoint file="/Users/MB/Games/Unity/Busy Work v2.0/Assets/Scripts/ClientScript.cs" line="29" column="1" />
+      <Breakpoint file="/Users/MB/Games/Unity/Busy Work v2.0/Assets/Scripts/ClientScript.cs" line="31" column="26" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

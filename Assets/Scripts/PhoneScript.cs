@@ -23,17 +23,45 @@ public class PhoneScript : MonoBehaviour {
 		callIncoming = false;
 		alertCanvas.enabled = false;
 		ringing = "Answer Your Phone!";
-		script = "Call script: Hello, and thank you for calling ZCorp. My name is [Your Name]. How may I make your day Glittastic?!";
+		script = "Call script:\nHello, and thank you for calling Bizee.Com. My name is [Your Name]. How may I help you?";
 		r = GetComponent<SpriteRenderer>();
 		r.enabled = false;
 		S = this;
+	}
+
+	void Update(){
+		if (PlayerManager.S.gameState == 3) {
+			if (callIncoming == true) {
+				if (Input.GetKey (KeyCode.Alpha0)) {
+					answerCall ();
+				}
+			}
+			if(onCall){
+				if (Input.GetKey (KeyCode.Alpha1)) {
+					endCall ();
+				}
+			}
+		}
 	}
 
 	public void phoneFlipped(){
 		if(onCall) HangUp();
 		if(callIncoming) Answered();
 		else return;
+	}
 
+	public void answerCall() {
+		if (!onCall && callIncoming)
+			Answered ();
+		else
+			return;
+	}
+
+	public void endCall() {
+		if (onCall)
+			HangUp ();
+		else
+			return;
 	}
 
 	public void Ringing() {

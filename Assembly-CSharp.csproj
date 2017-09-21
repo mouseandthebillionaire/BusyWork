@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C88D8DF6-E305-39F1-62F6-ED1E5007BAF0}</ProjectGuid>
+    <ProjectGuid>{49024019-914E-A619-2B25-8B06EF16701A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -19,10 +22,11 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;UNITY_64;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_0;UNITY_2017_1;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -31,11 +35,13 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.XML" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
@@ -45,43 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscBlobEvent.cs" />
-     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscBoolEvent.cs" />
-     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscCharEvent.cs" />
-     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscColorEvent.cs" />
-     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscDoubleEvent.cs" />
-     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscFloatEvent.cs" />
-     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscIntEvent.cs" />
-     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscLongEvent.cs" />
-     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscMessageEvent.cs" />
-     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscStringEvent.cs" />
-     <Compile Include="Assets\OSC simpl\Base\Internal\Events\OscTimeTagEvent.cs" />
-     <Compile Include="Assets\OSC simpl\Base\Internal\OscHelper.cs" />
-     <Compile Include="Assets\OSC simpl\Base\Internal\OscMapping.cs" />
-     <Compile Include="Assets\OSC simpl\Base\Internal\OscMessageType.cs" />
-     <Compile Include="Assets\OSC simpl\Base\Internal\OscPacket.cs" />
-     <Compile Include="Assets\OSC simpl\Base\OscBundle.cs" />
-     <Compile Include="Assets\OSC simpl\Base\OscImpulse.cs" />
-     <Compile Include="Assets\OSC simpl\Base\OscMessage.cs" />
-     <Compile Include="Assets\OSC simpl\Base\OscReceiveMode.cs" />
-     <Compile Include="Assets\OSC simpl\Base\OscRemoteStatus.cs" />
-     <Compile Include="Assets\OSC simpl\Base\OscSendMode.cs" />
-     <Compile Include="Assets\OSC simpl\Base\OscTimeTag.cs" />
-     <Compile Include="Assets\OSC simpl\Examples\01 GettingStarted\GettingStartedReceiving.cs" />
-     <Compile Include="Assets\OSC simpl\Examples\01 GettingStarted\GettingStartedSending.cs" />
-     <Compile Include="Assets\OSC simpl\Examples\02 ArgumentTypes\ArgumentTypeTest.cs" />
-     <Compile Include="Assets\OSC simpl\Examples\03 RuntimeUI\Scripts\OscInRuntimeUI.cs" />
-     <Compile Include="Assets\OSC simpl\Examples\03 RuntimeUI\Scripts\OscOutRuntimeUI.cs" />
-     <Compile Include="Assets\OSC simpl\Examples\03 RuntimeUI\Scripts\TestMessageGenerator.cs" />
-     <Compile Include="Assets\OSC simpl\Examples\04 Bundles\UsingBundles.cs" />
-     <Compile Include="Assets\OSC simpl\Examples\05 TimeTags\UsingTimeTags.cs" />
-     <Compile Include="Assets\OSC simpl\Examples\06 Unicast\UsingUnicast.cs" />
-     <Compile Include="Assets\OSC simpl\Examples\07 Broadcast\UsingBroadcast.cs" />
-     <Compile Include="Assets\OSC simpl\Examples\08 Multicast\UsingMulticast.cs" />
-     <Compile Include="Assets\OSC simpl\Examples\09 Optimisations\Optimisations.cs" />
-     <Compile Include="Assets\OSC simpl\OscIn.cs" />
-     <Compile Include="Assets\OSC simpl\OscOut.cs" />
-     <Compile Include="Assets\Scripts\ClientScript.cs" />
+     <Compile Include="Assets\osScript.cs" />
+     <Compile Include="Assets\Scripts\CommunicationScript.cs" />
      <Compile Include="Assets\Scripts\FadeScript.cs" />
      <Compile Include="Assets\Scripts\GameManagementScript.cs" />
      <Compile Include="Assets\Scripts\GameOverScript.cs" />
@@ -89,43 +60,61 @@
      <Compile Include="Assets\Scripts\LoadingScript.cs" />
      <Compile Include="Assets\Scripts\LoginScript.cs" />
      <Compile Include="Assets\Scripts\MashyTypey.cs" />
+     <Compile Include="Assets\Scripts\MessengerScript.cs" />
+     <Compile Include="Assets\Scripts\OSC.cs" />
+     <Compile Include="Assets\Scripts\OutScript.cs" />
      <Compile Include="Assets\Scripts\PhoneScript.cs" />
      <Compile Include="Assets\Scripts\PlayerManager.cs" />
      <Compile Include="Assets\Scripts\PopupScript.cs" />
      <Compile Include="Assets\Scripts\SceneScript.cs" />
-     <Compile Include="Assets\Scripts\SerialScript.cs" />
-     <Compile Include="Assets\Scripts\ServerScript.cs" />
      <Compile Include="Assets\Scripts\TimerScript.cs" />
      <Compile Include="Assets\SimplePixelizer\SimplePixelizer.cs" />
-     <None Include="Assets\OSC simpl\Documents\Versions.txt" />
-     <None Include="Assets\Resources\email_0.txt" />
-     <None Include="Assets\Resources\email_8.txt" />
-     <None Include="Assets\Resources\email_13.txt" />
-     <None Include="Assets\Resources\alert_5.txt" />
-     <None Include="Assets\Resources\email_12.txt" />
-     <None Include="Assets\Resources\email_5.txt" />
-     <None Include="Assets\Resources\email_14.txt" />
-     <None Include="Assets\Resources\alert_3.txt" />
-     <None Include="Assets\Resources\alert_1.txt" />
-     <None Include="Assets\Resources\email_10.txt" />
-     <None Include="Assets\Resources\alert_0.txt" />
-     <None Include="Assets\Resources\alert_2.txt" />
-     <None Include="Assets\Resources\alert_4.txt" />
-     <None Include="Assets\Resources\email_3.txt" />
+     <None Include="Assets\Resources\workEmails\email_2.txt" />
+     <None Include="Assets\Resources\conversations\2\1.txt" />
+     <None Include="Assets\Resources\inboxes\0_from.txt" />
+     <None Include="Assets\Resources\conversations\3\0.txt" />
+     <None Include="Assets\Resources\workEmails\email_0.txt" />
+     <None Include="Assets\Resources\inboxes\0.txt" />
+     <None Include="Assets\Resources\workEmails\email_1.txt" />
+     <None Include="Assets\Resources\conversations\3\2.txt" />
+     <None Include="Assets\Resources\conversations\1\2.txt" />
+     <None Include="Assets\Resources\emails\3\0.txt" />
+     <None Include="Assets\Resources\conversations\1\0.txt" />
+     <None Include="Assets\Resources\conversations\0\1.txt" />
+     <None Include="Assets\Resources\sig_0.txt" />
+     <None Include="Assets\Resources\conversations\0\2.txt" />
      <None Include="Assets\SimplePixelizer\ReadMe.txt" />
-     <None Include="Assets\Resources\email_11.txt" />
-     <None Include="Assets\Resources\email_4.txt" />
-     <None Include="Assets\Resources\email_2.txt" />
-     <None Include="Assets\Resources\email_1.txt" />
-     <None Include="Assets\Resources\email_7.txt" />
-     <None Include="Assets\Resources\email_6.txt" />
+     <None Include="Assets\Resources\emails\0\0.txt" />
+     <None Include="Assets\Resources\workEmails\email_4.txt" />
+     <None Include="Assets\Resources\conversations\0\0.txt" />
+     <None Include="Assets\Resources\conversations\3\1.txt" />
+     <None Include="Assets\Resources\conversations\1\1.txt" />
+     <None Include="Assets\Resources\conversations\2\0.txt" />
+     <None Include="Assets\Resources\conversations\2\2.txt" />
      <None Include="Assets\Resources\susan.txt" />
-     <None Include="Assets\Resources\email_9.txt" />
- <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+     <None Include="Assets\Resources\workEmails\email_3.txt" />
+     <None Include="Assets\Resources\emails\2\0.txt" />
+     <None Include="Assets\Resources\emails\1\0.txt" />
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -13,6 +13,11 @@ public class SceneScript : MonoBehaviour {
 
 	public void Loading(){
 		SceneManager.LoadScene("Loading");
+		PlayerManager.S.gameState = 2;
+	}
+
+	public void Out(){
+		SceneManager.LoadScene("OutOfOffice");
 	}
 
 	public void GameOver(){

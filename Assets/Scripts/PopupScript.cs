@@ -19,6 +19,8 @@ public class PopupScript : MonoBehaviour {
 	private SpriteRenderer				r;
 	private int							i;
 	private bool						done;
+	private float 						time = 300;
+	private string 						minutes;
 
 	public static PopupScript			S;
 
@@ -34,6 +36,8 @@ public class PopupScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		time -= Time.deltaTime;
+		minutes = Mathf.Floor(time / 60).ToString("00");
 	}
 
 	public void Popup(string s) {
@@ -43,9 +47,8 @@ public class PopupScript : MonoBehaviour {
 			alertCanvas.enabled = true;
 			r.enabled = true;
 			if(s == "calendar"){
-				TextAsset t = Resources.Load("alert_" + i) as TextAsset;
-				alert = t.text;
-				alertButton.text = alertButtonText[i];
+				alert = "Reminder, Daily meeting is in " + minutes + " minutes. All emailing must be done beforehand.";
+				alertButton.text = "Okay";
 			}
 			if(s == "binder"){
 				var v = Random.Range(0, 2);
@@ -54,6 +57,7 @@ public class PopupScript : MonoBehaviour {
 				alertButton.text = "Done";
 			}
 			alertText.text = alert;
+			Debug.Log (alert);
 			alertSound.Play();
 		}
 	}

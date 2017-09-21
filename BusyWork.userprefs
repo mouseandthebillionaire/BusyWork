@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CommunicationScript.cs">
+    <Files>
+      <File FileName="Assets/Scripts/CommunicationScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LoginScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SceneScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameManagementScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MashyTypey.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
